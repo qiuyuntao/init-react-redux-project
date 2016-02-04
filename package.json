@@ -1,6 +1,6 @@
 {
   "name": "react-redux-init",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "bin": {
     "react-redux-init": "./bin/react-redux-init"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qiuyuntao/init-react-redux-project.git"
+    "url": "git+https://github.com/qiuyuntao/react-redux-init.git"
   },
   "author": "却痕",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/qiuyuntao/init-react-redux-project/issues"
+    "url": "https://github.com/qiuyuntao/react-redux-init/issues"
   },
-  "homepage": "https://github.com/qiuyuntao/init-react-redux-project#readme",
+  "homepage": "https://github.com/qiuyuntao/react-redux-init#readme",
   "dependencies": {
     "through2": "~2.0.0",
     "vinyl-fs": "~2.2.1",

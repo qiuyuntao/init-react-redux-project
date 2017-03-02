@@ -13,6 +13,7 @@ module.exports = {
     loaders: [{
       test: /\.js(x?)$/,
       loader: 'babel-loader',
+      exclude: /(node_modules|bower_components)/,
       query: {
         presets: ['es2015', 'react']
       }
@@ -27,5 +28,8 @@ module.exports = {
       loader: "url-loader?mimetype=image/png"
     }]
   },
-  plugins: [commonsPlugin]
+  plugins: [commonsPlugin],
+  resolve: {
+    extensions: ['', '.js', '.json', '.jsx', '.md']
+  }
 };
